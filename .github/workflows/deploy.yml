@@ -18,6 +18,7 @@ jobs:
               with:
                     node-version: 22
                     cache: npm
+                    cache-dependencies-path: ./node_modules
             - name: Install dependencies
               run: npm ci
               working-directory: ./
