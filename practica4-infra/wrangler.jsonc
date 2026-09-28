@@ -5,4 +5,11 @@
 	"observability": {
 		"enabled": true,
 	},
+	"d1_databases": [
+		{
+			"binding": "p6",
+			"database_name":"practica06",
+			"database_id": "3e87d002-03f6-4872-a436-e0f319aa4811"
+		}
+	]
 }
