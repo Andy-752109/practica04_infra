@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { validateUserForm } from "../src/validator";
+import { validateUserForm } from "../src/validators";
 
 describe("validateUserForm", () => {
   it("debe retornar isValid: true para datos correctos", () => {
