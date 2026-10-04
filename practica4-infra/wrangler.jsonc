@@ -11,5 +11,17 @@
 			"database_name":"practica06",
 			"database_id": "3e87d002-03f6-4872-a436-e0f319aa4811"
 		}
-	]
+	],
+	"env":{
+		"production":{
+			"name": "practica07prod",
+			"d1_databases":[
+				{
+					"binding":"p6",
+					"database_name":"practiuca07prod",
+					"database_id":"d2b4b0ae-f112-49bb-ad03-2563f249a058"
+				}
+			]
+		}
+	}
 }
