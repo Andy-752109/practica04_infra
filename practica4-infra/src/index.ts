@@ -11,7 +11,7 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-import { validateUserForm } from "./validator";
+import { validateUserForm } from "./validators";
 
 export interface Env {
   p6: D1Database;
