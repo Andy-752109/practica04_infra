@@ -23,7 +23,7 @@ jobs:
               run: npm ci --legacy-peer-deps
               working-directory: ./practica4-infra
             - name: Run unit tests and coverage
-              run: npm test -- --run
+              run: npx vitest run --coverage.enabled --coverage.reporter=text --coverage.provider=istanbul
               working-directory: ./practica4-infra
             - name: Deploy to Cloudflare Workers
               uses: cloudflare/wrangler-action@v3
